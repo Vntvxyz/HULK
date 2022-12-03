@@ -16,7 +16,7 @@ time.sleep(1)
 proxys = open('proxies.txt').readlines()
 bots = len(proxys)
 def si():
-  print("[2005] | DDoS Hulk Power | New Ui")
+  print("[2005] | DDoS Hulk Pơer by Tvinh | New Panel")
 def help():
   print("""
   |Layer7|
@@ -56,7 +56,7 @@ Type [Help] to see all commands
 def main():
   menu()
   while(True):
-    cnc = input(f"""\x1b[38;2;239;239;239m┏━━[\x1b[38;2;255;99;71mHoSaKi\x1b[38;2;239;239;239m] - [\x1b[38;2;255;234;0m{uname}\x1b[38;2;239;239;239m]\n\x1b[38;2;239;239;239m┗━━➤ """)
+    cnc = input(f"""\x1b[38;2;239;239;239m┏━━[\x1b[38;2;255;99;71mTvinhHULK\x1b[38;2;239;239;239m] - [\x1b[38;2;255;234;0m{uname}\x1b[38;2;239;239;239m]\n\x1b[38;2;239;239;239m┗━━➤ """)
     if cnc == "layer7" or cnc == "Layer7" or cnc == "L7":
       layer7()
     elif cnc == "layer4" or cnc == "Layer4" or cnc == "l4":
